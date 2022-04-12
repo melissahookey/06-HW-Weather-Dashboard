@@ -11,7 +11,7 @@ h1 {
 
 .navbar {
     height: 150px!important;
-    background-color: #343a40!important;
+    background-image: linear-gradient(to right, blue, purple)!important;
 }
 
 .input-group {
@@ -44,7 +44,7 @@ li {
 }
 
 p {
-    color: #D9B779;
+    color: white;
 }
 
 h1, h2, h3, h4, h5 {

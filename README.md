@@ -14,6 +14,8 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 # Screenshots
-!(./image1.png) 
-<img width="1433" alt="image1" src="https://user-images.githubusercontent.com/99441945/162882470-491cf37d-3cae-4753-a324-dd2ebc742bef.png">
-!(./image2.png) <img width="1428" alt="image2" src="https://user-images.githubusercontent.com/99441945/162882512-a5b7a99b-d6bd-40e0-99b0-42cdc45d4dfe.png">
+
+<img width="1430" alt="Screen Shot 2022-04-11 at 11 54 43 PM" src="https://user-images.githubusercontent.com/99441945/162883477-f65c82dd-2e99-4fb7-ad8a-f88b3d13ab5e.png">
+
+
+<img width="1427" alt="Screen Shot 2022-04-11 at 11 54 52 PM" src="https://user-images.githubusercontent.com/99441945/162883510-d00ac624-a062-412f-bc8c-5cda2147c1f1.png">
