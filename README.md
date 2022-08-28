@@ -8,7 +8,7 @@
 2. [Requirements](#project-requirements)
 3. [Technologies](#technologies)
 4. [Screenshots](#screenshots)
-5. [Contact]{#contact}
+5. [Contact](#contact)
 
 ## Project Requirements 
 
