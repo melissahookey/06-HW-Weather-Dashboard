@@ -15,7 +15,3 @@ THEN I am again presented with current and future conditions for that city
 
 # Screenshots
 
-<img width="1430" alt="Screen Shot 2022-04-11 at 11 54 43 PM" src="https://user-images.githubusercontent.com/99441945/162883477-f65c82dd-2e99-4fb7-ad8a-f88b3d13ab5e.png">
-
-
-<img width="1427" alt="Screen Shot 2022-04-11 at 11 54 52 PM" src="https://user-images.githubusercontent.com/99441945/162883510-d00ac624-a062-412f-bc8c-5cda2147c1f1.png">

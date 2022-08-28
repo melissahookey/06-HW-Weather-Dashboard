@@ -97,8 +97,7 @@ function futureCondition(lat, lon) {
 
 // date, icon, temp, humidity
             var futureCard = $(`
-                <div class="pl-3">
-                    <div class="card pl-3 pt-3 mb-3 bg-primary text-light" style="width: 12rem;>
+                    <div class="card pl-3 pt-3 mb-3 bg-primary text-light">
                         <div class="card-body">
                             <h5>${currDate}</h5>
                             <p>${iconURL}</p>
@@ -106,7 +105,6 @@ function futureCondition(lat, lon) {
                             <p>Humidity: ${cityInfo.humidity}\%</p>
                         </div>
                     </div>
-                <div>
             `);
 
             $("#fiveForecast").append(futureCard);
@@ -148,4 +146,7 @@ $(document).ready(function() {
         weather(lastSearchedCity);
         console.log(`Last searched city: ${lastSearchedCity}`);
     }
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+    });
 });

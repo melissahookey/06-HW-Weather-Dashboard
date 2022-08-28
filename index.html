@@ -17,59 +17,50 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
     ></script>
   </head>
-  <body>
+  <body>      
         <div class="container-fluid">
-            <div class="row navbar">
-                <div class="col-12 text-center">
-                    <h1>Weather Dashboard</h1>
+            <div class="wrapper row pb-4" id="navContainer">
+                <div class="col-12">
+                    <nav class="navbar fixed-top justify-content-center py-3 bg-light">
+                        <h1>Weather Dashboard</h1>
+                    </nav>
                 </div>
             </div>
-            <!-- search form and button -->
-            <div class="container">
-                <div class="row p-4">
-                    <div class="col-3">
-                        <div class="input-group">
-                            <input class="form-control" type="text" id="enterCity" placeholder="Search by city"><button type="button" id="searchBtn" class="btn btn-primary"><i class="fas fa-search" aria-hidden="true"></i></button>
-                        </div>
-                        <br>
+            <br><br><br>
+            <div class="wrapper row">
+                <div class="col-md-3 pt-2">
+                    <ul class="list-group" id="searchBar">
+                        <li>
+                            <div class="input-group">
+                                <input class="form-control" type="text" id="enterCity" placeholder="Search by city"><button type="button" id="searchBtn" class="btn btn-primary"><i class="fas fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </li>
                         <ul id="searchHistory" class="list-group">
                             <!-- appended li search history goes here  -->
                         </ul>
+                    </ul>     
+                </div>
+                <main class="col-md-9 pt-2">
+                    <div class="container-fluid" id="cityDisplay">
+                        <!-- append currentCity p tag -->
                     </div>
-                    <!-- five day forecast section -->
-                        <div class="col-9 border rounded px-3 py-3" id="cityDisplay">
-                            <!-- append currentCity p tag -->
+                    <br>
+                    <div class="container-fluid">
+                        <h3>5-Day Forecast:</h3>
+                        <div class="card-group">
+                            <div id="fiveForecast" class="container-fluid">
+                                <!-- append the five day forecast here -->
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row p-4">
-                    <div class="col-12 ml-2">
-                        <h3>5-Day Forecast:</h3>
-                    </div>
-                </div>
-
-                <div id="fiveForecast" class="row p-4">
-                    <!-- append the five day forecast here -->
-                </div>
-            </div>
-                        
-                    </div>
-
                     
-                </div>
+                </main>
             </div>
-
-                    
-            
         </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
-    <script src="https://kit.fontawesome.com/1d37754851.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-  </body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+        <script src="https://kit.fontawesome.com/1d37754851.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
 </html>

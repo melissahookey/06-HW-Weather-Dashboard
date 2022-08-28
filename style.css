@@ -1,65 +1,31 @@
-h1 {
-    font-size: 50px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    color: #f8f8ff;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-#weatherContent {
-    display: none;
+.container-fluid {
+    flex-direction: row;
+    text-align: center;
+}
+.wrapper {
+    display: flex;
+
 }
 
-.navbar {
-    height: 150px!important;
-    background-image: linear-gradient(to right, blue, purple)!important;
+.col-md-3 {
+    position: sticky;
 }
 
-.input-group {
-    max-width: 200px;
+
+#cityDisplay {
+    flex-direction: row;
 }
 
-#cityDisplay,
-#uvIndexColor,
-li {
-    color: #4D4F53!important;
+ul {
+    list-style-type: none;
 }
 
-#citySearch,
-#cityDisplay,
-.card {
-    background-color: #5A6C73!important;
-}
-
-#citySearch {
-    height: 100vh;
-}
-
-#fiveForecast .card {
-    border: 1px solid white!important;
-}
-
-#searchHistory li {
-    background-color: #97A6A4;
-    color: #f8f8ff!important;
-}
-
-p {
-    color: white;
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-h2, h4, h5 {
-    color: #f8f8ff;
-}
-
-h3 {
-    color: black;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #97A6A4;
+.card-group {
+    display: flex;
 }
