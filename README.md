@@ -1,6 +1,18 @@
-# 06-HW-Weather-Dashboard
+# 🌦 Weather-Dashboard 🌦
 
-# Acceptance Criteria 
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+
+## Table of Contents
+
+1. [Description](#description)
+2. [Requirements](#project-requirements)
+3. [Technologies](#technologies)
+4. [Screenshots](#screenshots)
+5. [Contact]{#contact}
+
+## Project Requirements 
+
+This assignment was completed for University of Texas's MERN Full-Stack Coding Bootcamp.
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history
@@ -13,5 +25,21 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
-# Screenshots
+## Technologies
+
+* HTML
+* CSS
+* Bootstrap 5
+* JavaScript
+* Open Weather API
+
+## Screenshots
+
+![screenshot](assets/Screenshot.png?raw=true)
+
+## Contact 
+
+* Find me on GitHub: melissahookey
+* Email me with any questions: melissah315@gmail.com
+
 
