@@ -97,7 +97,7 @@ function futureCondition(lat, lon) {
 
 // date, icon, temp, humidity
             var futureCard = $(`
-                    <div class="card pl-3 pt-3 mb-3 bg-primary text-light">
+                    <div class="card pl-3 pt-3 mb-3" id="fiveCard">
                         <div class="card-body">
                             <h5>${currDate}</h5>
                             <p>${iconURL}</p>
