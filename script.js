@@ -19,7 +19,7 @@ function weather(city) {
 
     // appending current weather details
     var currentCity = $(`
-            
+    
             <div class="card h-100">
                 <div class="card-body">
                     <h2 id="currentCity">
@@ -28,6 +28,7 @@ function weather(city) {
                     <p>Temperature: ${weatherResponse.main.temp} °F</p>
                     <p>Humidity: ${weatherResponse.main.humidity}\%</p>
                     <p>Wind Speed: ${weatherResponse.wind.speed} MPH</p>
+                    <p id="uv-card-content"> </p>
                 </div>
             </div>
                 
@@ -52,7 +53,7 @@ function weather(city) {
                 </p>
             `);
 
-      $("#cityDisplay").append(uvIndexP);
+      $("#uv-card-content").append(uvIndexP);
 
       futureCondition(lat, lon);
       // uv color changes
