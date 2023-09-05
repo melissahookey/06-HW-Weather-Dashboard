@@ -4,11 +4,14 @@
 
 ## Table of Contents
 
-1. [Description](#description)
+1. [Deployment](#deployment)
 2. [Requirements](#project-requirements)
 3. [Technologies](#technologies)
 4. [Screenshots](#screenshots)
 5. [Contact](#contact)
+
+## Deployment
+[Weather Dashboard](https://melissahookey.github.io/06-HW-Weather-Dashboard/)
 
 ## Project Requirements 
 
